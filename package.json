@@ -1,5 +1,5 @@
 {
-  "name": "BhaiClient",
+  "name": "bhaiclient",
   "version": "1.0.1",
   "description": "A versatile and efficient solution for applications needing fast, reliable, and persistent data storage.",
   "main": "src/index.js",
