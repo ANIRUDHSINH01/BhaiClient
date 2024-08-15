@@ -15,5 +15,29 @@
     "jest": "^27.0.6"
   },
   "author": "ANIRUDHSINH01",
-  "license": "ISC"
+  "license": "ISC",
+  "homepage": "https://github.com/ANIRUDHSINH01/BhaiClient",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ANIRUDHSINH01/BhaiClient.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ANIRUDHSINH01/BhaiClient/issues"
+  },
+  "keywords": [
+    "data",
+    "storage",
+    "cache",
+    "mongodb",
+    "BhaiClient"
+  ],
+  "files": [
+    "src/**/*"
+  ],
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
 }
