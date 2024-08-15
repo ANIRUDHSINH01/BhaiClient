@@ -1,0 +1,19 @@
+{
+  "name": "BhaiClient",
+  "version": "1.0.0",
+  "description": "A versatile and efficient solution for applications needing fast, reliable, and persistent data storage.",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "dependencies": {
+    "events": "^3.3.0",
+    "mongodb": "^4.0.0",
+    "node-cache": "^5.1.2"
+  },
+  "devDependencies": {
+    "jest": "^27.0.6"
+  },
+  "author": "ANIRUDHSINH01",
+  "license": "ISC"
+}
