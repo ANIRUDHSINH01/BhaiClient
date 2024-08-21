@@ -18,7 +18,7 @@ npm install bhaiclient
 ### Importing and Initializing
 
 ```javascript
-import BhaiClient from './src/index';
+import BhaiClient from 'bhaiclient';
 
 const client = new BhaiClient({
   mongoConfigs: [{ uri: 'your_mongo_connection_string', dbName: 'your_database_name' }],
