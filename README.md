@@ -1,3 +1,6 @@
+Here's the fixed version of the **BhaiClient** package documentation:
+
+---
 
 # BhaiClient Package Documentation
 
@@ -113,7 +116,7 @@ const client = new BhaiClient({
 ### IoT (Sensor Data)
 
 ```javascript
-import BhaiClient from './src/index';
+import BhaiClient from 'bhaiclient';
 
 (async () => {
   const client = new BhaiClient({
@@ -140,7 +143,7 @@ import BhaiClient from './src/index';
 ### E-commerce (User Cart)
 
 ```javascript
-import BhaiClient from './src/index';
+import BhaiClient from 'bhaiclient';
 
 (async () => {
   const client = new BhaiClient({
@@ -198,7 +201,6 @@ client.on('delete', (key) => {
 
 ### `cacheMiss`
 
-
 Emitted when a cache miss occurs.
 
 ```javascript
@@ -209,7 +211,7 @@ client.on('cacheMiss', (key) => {
 
 ## Performance
 
-`BhaiClient` package ki performance kaafi depend karti hai aapke use case, hardware, network latency aur data volume par. Lekin overall, yeh package fast aur efficient hai kyunki yeh in-memory caching aur MongoDB ka combination use karta hai.
+The performance of the `BhaiClient` package largely depends on your use case, hardware, network latency, and data volume. However, overall, this package is fast and efficient due to its combination of in-memory caching and MongoDB.
 
 ### Expected Performance
 
@@ -223,4 +225,6 @@ client.on('cacheMiss', (key) => {
 2. **Increase Cache TTL**: Increase the Time-to-Live (TTL) for cache entries to reduce the frequency of fetching data from MongoDB.
 3. **Use Efficient Data Structures**: Use efficient data structures and algorithms to manage data within your application.
 4. **Monitor Performance**: Use monitoring tools to track the performance of your MongoDB cluster and in-memory cache.
+
+--- 
 
