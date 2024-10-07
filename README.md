@@ -5,6 +5,7 @@ Here's the fixed version of the **BhaiClient** package documentation:
 # BhaiClient Package Documentation
 
 [![npm version](https://img.shields.io/npm/v/bhaiclient.svg)](https://www.npmjs.com/package/bhaiclient)
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2FANIRUDHSINH01%2FBhaiClient.svg?type=shield)](https://app.fossa.com/projects/git%2Bgithub.com%2FANIRUDHSINH01%2FBhaiClient?ref=badge_shield)
 
 ## Overview
 
@@ -228,3 +229,7 @@ The performance of the `BhaiClient` package largely depends on your use case, ha
 
 --- 
 
+
+
+## License
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2FANIRUDHSINH01%2FBhaiClient.svg?type=large)](https://app.fossa.com/projects/git%2Bgithub.com%2FANIRUDHSINH01%2FBhaiClient?ref=badge_large)
